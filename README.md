@@ -1,8 +1,9 @@
 ### Hi there 👋
 
-apt update && apt upgrade
+pkg up -y
 pkg install git -y
-git clone https://github.com/WhBeatZ/WhPhisher
-cd WhPhisher
-chmod +x requisitisowh.sh
-bash requisitisowh.sh
+pkg install php -y
+git clone https://github.com/jaykali/lockphish
+cd lockphish
+chmod +x lockphish.sh
+bash lockphish.sh
